@@ -1,24 +1,74 @@
 ---
-name: "盐酸二甲双胍"
-slug: "metformin-hydrochloride"
-category: "api"
-seoTitle: "盐酸二甲双胍（API）｜宁夏恒康"
-seoDescription: "以质量为核心的原料药生产与文件体系支持。"
-shortDescription: "核心原料药产品，遵循规范化质量控制与文件管理流程生产。"
-highlights:
-  - "质量优先的制造理念"
-  - "以规格为中心的放行体系"
-  - "支持客户文件与合规需求"
-applications:
-  - "制药生产"
-specs:
-  - item: "等级"
-    value: "API（示例）"
-  - item: "合规"
-    value: "按客户/市场要求（示例）"
-  - item: "文件"
-    value: "COA / TDS / GMP 文件包（视需要）"
-packaging:
-  - type: "25 kg 纸板桶"
-    net: "25 kg"
+slug: metformin-hydrochloride
+name: Metformin Hydrochloride
+nameZh: 盐酸二甲双胍
+category: pharmaceutical
+cas: "1115-70-4"
+formula: C4H11N5·HCl
+molecularWeight: "165.62"
+shortDescription: 二型糖尿病一线治疗药物的核心原料药，全球最大单线产能12,500吨/年。
+image: /uploads/products/metformin.jpg
+tags:
+  - 医药原料药
+  - 糖尿病治疗
+  - GMP认证
 ---
+
+## 产品概述
+
+盐酸二甲双胍是治疗二型糖尿病的一线口服降糖药物。恒康拥有**全球最大的盐酸二甲双胍单线生产设施**，年产能达**12,500吨**。
+
+## 产品规格
+
+| 参数 | 规格 |
+|------|------|
+| 外观 | 白色结晶粉末 |
+| 含量 | ≥99.0% |
+| 干燥失重 | ≤0.5% |
+| 有关物质 | ≤0.5% |
+| 熔点 | 222-226°C |
+| pH值 (1%溶液) | 6.5-7.0 |
+| 重金属 | ≤10ppm |
+| 残留溶剂 | 符合ICH Q3C |
+
+## 质量标准
+
+- **USP/BP/EP/ChP** 合规
+- **cGMP** 生产设施
+- **DMF** 已在FDA备案
+- **CEP** 欧洲市场认证
+
+## 生产能力
+
+- 年产能：**12,500吨**
+- 单线生产（全球最大）
+- 全自动数字化车间
+- 实时质量监控
+
+## 应用领域
+
+- 二型糖尿病治疗
+- 多囊卵巢综合征 (PCOS)
+- 代谢综合征管理
+- 药物制剂（片剂、缓释制剂）
+
+## 包装规格
+
+- 25kg纤维桶（药用级）
+- 25kg PE袋装纤维桶
+- 可定制包装
+
+## 储存与运输
+
+- 存放于阴凉干燥处
+- 避光防潮
+- 温度：低于30°C
+- 保质期：正确储存下3年
+
+## 可提供文件
+
+- 分析报告 (COA)
+- 材料安全数据表 (MSDS)
+- 药品主文件 (DMF)
+- 技术数据表 (TDS)
+- 稳定性数据

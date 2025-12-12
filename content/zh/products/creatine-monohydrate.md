@@ -1,33 +1,76 @@
 ---
-name: "一水肌酸"
-slug: "creatine-monohydrate"
-category: "food-additive"
-seoTitle: "一水肌酸｜宁夏恒康"
-seoDescription: "规格清晰、文件完善的一水肌酸原料，质量体系支持全球客户需求。"
-shortDescription: "经典营养原料，支持运动表现与恢复——以严格质量控制生产。"
-highlights:
-  - "规格清晰，文件可追溯"
-  - "质量稳定，供应可靠"
-  - "提供应用与技术支持"
-applications:
-  - "运动营养"
-  - "健康补充剂"
-  - "功能食品"
-specs:
-  - item: "含量"
-    value: "≥ 99.5%（示例）"
-  - item: "外观"
-    value: "白色结晶粉末"
-  - item: "水分"
-    value: "≤ 12%（一水物基准，示例）"
-packaging:
-  - type: "25 kg 袋装"
-    net: "25 kg"
-documents:
-  - label: "技术资料（示例）"
-    file: "/uploads/tds-example.pdf"
-    type: "TDS"
-  - label: "安全数据表（示例）"
-    file: "/uploads/sds-example.pdf"
-    type: "SDS"
+slug: creatine-monohydrate
+name: Creatine Monohydrate
+nameZh: 一水肌酸
+category: nutrition
+cas: "6020-87-7"
+formula: C4H9N3O2·H2O
+molecularWeight: "149.15"
+shortDescription: 顶级运动营养成分，严格质量控制生产，支持运动表现和恢复。
+image: /uploads/products/creatine.jpg
+tags:
+  - 运动营养
+  - 肌肉表现
+  - 食品级
 ---
+
+## 产品概述
+
+一水肌酸是研究最充分、效果最显著的运动营养补剂，可提高高强度运动表现和肌肉力量。恒康年产**15,000吨**肌酸系列产品。
+
+## 产品规格
+
+| 参数 | 规格 |
+|------|------|
+| 外观 | 白色结晶粉末 |
+| 含量 | ≥99.5% |
+| 肌酐 | ≤100ppm |
+| 双氰胺 | ≤50ppm |
+| 干燥失重 | ≤12.0% |
+| pH值 (1%溶液) | 6.5-7.5 |
+| 重金属 | ≤10ppm |
+| 粒度 | 80目或200目 |
+
+## 质量标准
+
+- **USP/FCC** 级别可选
+- **FSSC 22000** 认证
+- **清真/犹太** 认证
+- **非转基因** 验证
+
+## 生产能力
+
+- 年产能：**15,000吨**（肌酸系列）
+- 多种粒度规格
+- 微粉化产品可选
+- 可定制规格
+
+## 应用领域
+
+- 运动营养补剂
+- 运动前配方
+- 增肌产品
+- 能量饮料和粉剂
+- 功能性食品
+
+## 包装规格
+
+- 25kg纤维桶
+- 25kg牛皮纸袋
+- 500kg/1000kg吨袋
+- 可定制包装
+
+## 储存与运输
+
+- 存放于阴凉干燥处
+- 防潮
+- 温度：低于25°C
+- 保质期：正确储存下2年
+
+## 可提供文件
+
+- 分析报告 (COA)
+- 材料安全数据表 (MSDS)
+- 技术数据表 (TDS)
+- 第三方检测报告
+- 清真/犹太证书
