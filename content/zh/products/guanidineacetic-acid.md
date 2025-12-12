@@ -7,7 +7,7 @@ cas: "352-97-6"
 formula: C3H7N3O2
 molecularWeight: "117.11"
 shortDescription: 高效肌酸前体饲料添加剂，促进肌肉生长和饲料转化效率。
-image: /uploads/products/gaa.jpg
+image: /uploads/products/gaa.png
 tags:
   - 动物营养
   - 饲料添加剂

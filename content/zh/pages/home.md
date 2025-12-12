@@ -3,17 +3,17 @@ title: 宁夏恒康科技有限公司 - 绿色制造产业基地
 heroHeadline: 绿色制造，全球品质
 heroSubheadline: 领先的特种化学品制造商，生产医药原料药、营养添加剂和先进材料，致力于品质与可持续发展。
 heroSlides:
-  - image: /uploads/hero-1.jpg
+  - image: /uploads/hero/banner-2.jpg
     headline: 全球领先的生产能力
     subheadline: 全球最大的盐酸二甲双胍单线生产设施，年产能12,500吨。
     ctaLabel: 探索产品
     ctaHref: /products
-  - image: /uploads/hero-2.jpg
+  - image: /uploads/hero/banner-3.jpg
     headline: 创新驱动发展
     subheadline: 省级研发中心推动氰胺化学和绿色制造技术进步。
     ctaLabel: 技术创新
     ctaHref: /innovation
-  - image: /uploads/hero-3.jpg
+  - image: /uploads/hero/banner-4.jpg
     headline: 值得信赖的全球合作伙伴
     subheadline: 产品出口50+国家和地区，通过GMP、CE、FSSC 22000等国际质量认证。
     ctaLabel: 关于恒康

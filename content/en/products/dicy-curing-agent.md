@@ -7,7 +7,7 @@ cas: "461-58-5"
 formula: C2H4N4
 molecularWeight: "84.08"
 shortDescription: Ultrafine dicyandiamide powder for epoxy resin curing applications, with innovative particle size control technology.
-image: /uploads/products/dicy.jpg
+image: /uploads/products/dicy.png
 tags:
   - Industrial Materials
   - Epoxy Curing

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { Locale, locales } from "@/i18n/locales";
@@ -66,25 +67,23 @@ export function Header({ locale }: { locale: Locale }) {
       {/* Main header */}
       <header
         className={`sticky top-0 z-50 transition-all duration-300 ${scrolled
-            ? "bg-white/95 backdrop-blur-lg shadow-soft border-b border-border"
-            : "bg-white border-b border-transparent"
+          ? "bg-white/95 backdrop-blur-lg shadow-soft border-b border-border"
+          : "bg-white border-b border-transparent"
           }`}
       >
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
             <Link href={`/${locale}`} className="flex items-center gap-3 group">
-              <div className="relative w-10 h-10 lg:w-12 lg:h-12 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center overflow-hidden">
-                <span className="text-white font-bold text-lg lg:text-xl">恒</span>
-                <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-              </div>
-              <div className="hidden sm:block">
-                <div className="text-base lg:text-lg font-bold text-primary tracking-tight">
-                  {locale === "zh" ? "宁夏恒康科技" : "Hengkang Technology"}
-                </div>
-                <div className="text-xs text-muted font-medium">
-                  {locale === "zh" ? "绿色制造 · 创新驱动" : "Green Chemistry · Innovation"}
-                </div>
+              <div className="relative w-32 h-10 lg:w-40 lg:h-12 flex items-center overflow-hidden">
+                <Image
+                  src="/uploads/logo.png"
+                  alt={locale === "zh" ? "宁夏恒康科技" : "Hengkang Technology"}
+                  width={160}
+                  height={48}
+                  className="object-contain h-full w-auto"
+                  priority
+                />
               </div>
             </Link>
 
@@ -95,8 +94,8 @@ export function Header({ locale }: { locale: Locale }) {
                   key={link.key}
                   href={`/${locale}${link.href}`}
                   className={`px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 ${pathname?.includes(link.href)
-                      ? "text-green-600 bg-green-50"
-                      : "text-primary/80 hover:text-primary hover:bg-subtle"
+                    ? "text-green-600 bg-green-50"
+                    : "text-primary/80 hover:text-primary hover:bg-subtle"
                     }`}
                 >
                   {t(`nav.${link.key}`)}
@@ -151,8 +150,8 @@ export function Header({ locale }: { locale: Locale }) {
                 href={`/${locale}${link.href}`}
                 onClick={() => setMobileMenuOpen(false)}
                 className={`px-4 py-3 text-base font-medium rounded-lg transition ${pathname?.includes(link.href)
-                    ? "text-green-600 bg-green-50"
-                    : "text-primary/80 hover:text-primary hover:bg-subtle"
+                  ? "text-green-600 bg-green-50"
+                  : "text-primary/80 hover:text-primary hover:bg-subtle"
                   }`}
               >
                 {t(`nav.${link.key}`)}

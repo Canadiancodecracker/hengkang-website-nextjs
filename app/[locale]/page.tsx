@@ -146,7 +146,7 @@ export default async function Home({ params }: { params: Promise<{ locale: Local
             <div className="relative">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-subtle">
                 <Image
-                  src="/uploads/hero-1.jpg"
+                  src="/uploads/about/company.png"
                   alt="Hengkang Factory"
                   fill
                   className="object-cover"

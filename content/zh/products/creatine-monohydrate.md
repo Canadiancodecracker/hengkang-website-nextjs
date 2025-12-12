@@ -7,7 +7,7 @@ cas: "6020-87-7"
 formula: C4H9N3O2·H2O
 molecularWeight: "149.15"
 shortDescription: 顶级运动营养成分，严格质量控制生产，支持运动表现和恢复。
-image: /uploads/products/creatine.jpg
+image: /uploads/products/creatine.png
 tags:
   - 运动营养
   - 肌肉表现

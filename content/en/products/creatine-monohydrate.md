@@ -7,7 +7,7 @@ cas: "6020-87-7"
 formula: C4H9N3O2·H2O
 molecularWeight: "149.15"
 shortDescription: A premier sports nutrition ingredient manufactured with strict quality controls, supporting athletic performance and recovery.
-image: /uploads/products/creatine.jpg
+image: /uploads/products/creatine.png
 tags:
   - Sports Nutrition
   - Muscle Performance

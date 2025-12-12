@@ -3,17 +3,17 @@ title: Ningxia Hengkang Technology - Green Manufacturing Excellence
 heroHeadline: Green Manufacturing, Global Standards
 heroSubheadline: Leading specialty chemicals manufacturer producing pharmaceutical APIs, nutrition ingredients, and advanced materials with a commitment to quality and sustainability.
 heroSlides:
-  - image: /uploads/hero-1.jpg
+  - image: /uploads/hero/banner-2.jpg
     headline: World-Class Manufacturing
     subheadline: Operating the world's largest single-line Metformin HCl production facility with 12,500 tons annual capacity.
     ctaLabel: Explore Products
     ctaHref: /products
-  - image: /uploads/hero-2.jpg
+  - image: /uploads/hero/banner-3.jpg
     headline: Innovation-Driven Growth
     subheadline: Provincial-level R&D centers advancing cyanamide chemistry and green manufacturing technologies.
     ctaLabel: Our Innovation
     ctaHref: /innovation
-  - image: /uploads/hero-3.jpg
+  - image: /uploads/hero/banner-4.jpg
     headline: Global Quality Partner
     subheadline: Exporting to 50+ countries with GMP, CE, FSSC 22000, and international quality certifications.
     ctaLabel: About Hengkang

@@ -7,7 +7,7 @@ cas: "352-97-6"
 formula: C3H7N3O2
 molecularWeight: "117.11"
 shortDescription: A highly effective creatine precursor for animal nutrition, enhancing muscle growth and feed conversion efficiency.
-image: /uploads/products/gaa.jpg
+image: /uploads/products/gaa.png
 tags:
   - Animal Nutrition
   - Feed Additive

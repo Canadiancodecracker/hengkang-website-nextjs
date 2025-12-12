@@ -7,7 +7,7 @@ cas: "1115-70-4"
 formula: C4H11N5·HCl
 molecularWeight: "165.62"
 shortDescription: 二型糖尿病一线治疗药物的核心原料药，全球最大单线产能12,500吨/年。
-image: /uploads/products/metformin.jpg
+image: /uploads/products/metformin.png
 tags:
   - 医药原料药
   - 糖尿病治疗

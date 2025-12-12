@@ -7,7 +7,7 @@ cas: "461-58-5"
 formula: C2H4N4
 molecularWeight: "84.08"
 shortDescription: 环氧树脂潜伏性固化剂，采用创新粒径控制技术的超细双氰胺粉末。
-image: /uploads/products/dicy.jpg
+image: /uploads/products/dicy.png
 tags:
   - 工业材料
   - 环氧固化

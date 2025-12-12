@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Locale } from "@/i18n/locales";
 
 const footerLinks = {
@@ -58,18 +59,14 @@ export function Footer({ locale }: { locale: Locale }) {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 lg:gap-12">
           {/* Brand column */}
           <div className="col-span-2 md:col-span-4 lg:col-span-1 mb-6 lg:mb-0">
-            <Link href={`/${locale}`} className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center">
-                <span className="text-white font-bold text-xl">恒</span>
-              </div>
-              <div>
-                <div className="text-lg font-bold">
-                  {isZh ? "宁夏恒康科技" : "Hengkang"}
-                </div>
-                <div className="text-xs text-white/60">
-                  {isZh ? "绿色制造产业基地" : "Green Manufacturing"}
-                </div>
-              </div>
+            <Link href={`/${locale}`} className="block mb-6">
+              <Image
+                src="/uploads/logo.png"
+                alt={isZh ? "宁夏恒康科技" : "Hengkang Technology"}
+                width={140}
+                height={42}
+                className="brightness-0 invert opacity-90 hover:opacity-100 transition"
+              />
             </Link>
             <p className="text-sm text-white/60 leading-relaxed mb-6">
               {isZh

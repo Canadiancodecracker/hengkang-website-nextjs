@@ -7,7 +7,7 @@ cas: "1115-70-4"
 formula: C4H11N5·HCl
 molecularWeight: "165.62"
 shortDescription: A core pharmaceutical API for diabetes treatment, produced on the world's largest single production line with annual capacity of 12,500 tons.
-image: /uploads/products/metformin.jpg
+image: /uploads/products/metformin.png
 tags:
   - Pharmaceutical API
   - Diabetes Treatment
