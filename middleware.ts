@@ -1,5 +1,5 @@
 import createMiddleware from "next-intl/middleware";
-import {locales, defaultLocale} from "./i18n/locales";
+import { locales, defaultLocale } from "./i18n/locales";
 
 export default createMiddleware({
   locales,
@@ -8,5 +8,5 @@ export default createMiddleware({
 });
 
 export const config = {
-  matcher: ["/((?!_next|favicon.ico|admin|robots.txt|sitemap.xml).*)"]
+  matcher: ["/((?!_next|favicon.ico|admin|robots.txt|sitemap.xml|uploads).*)"]
 };
