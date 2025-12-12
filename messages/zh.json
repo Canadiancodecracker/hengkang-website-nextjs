@@ -1,0 +1,21 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于恒康",
+    "products": "产品",
+    "innovation": "创新与研发",
+    "sustainability": "可持续发展",
+    "news": "新闻与媒体",
+    "careers": "加入我们",
+    "contact": "联系我们"
+  },
+  "ui": {
+    "language": "EN / 中文",
+    "cta": {
+      "exploreProducts": "查看产品",
+      "contactSales": "联系销售",
+      "learnMore": "了解更多",
+      "viewAll": "查看全部"
+    }
+  }
+}

@@ -1,0 +1,181 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+i18n:
+  structure: multiple_files
+  locales: [en, zh]
+  default_locale: en
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    i18n: true
+    files:
+      - label: "Home"
+        name: "home"
+        i18n: true
+        file: "content/{{locale}}/pages/home.md"
+        fields:
+          - {label: "SEO Title", name: "seoTitle", widget: "string", required: true}
+          - {label: "SEO Description", name: "seoDescription", widget: "text", required: true}
+          - {label: "Hero Headline", name: "heroHeadline", widget: "string", required: true}
+          - {label: "Hero Subheadline", name: "heroSubheadline", widget: "text", required: true}
+          - label: "Hero Slides"
+            name: "heroSlides"
+            widget: "list"
+            min: 1
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: true}
+              - {label: "Subtitle", name: "subtitle", widget: "text", required: true}
+              - {label: "Image", name: "image", widget: "image", required: true}
+              - {label: "CTA Label", name: "ctaLabel", widget: "string", required: true}
+              - {label: "CTA Href (path only, e.g. /products)", name: "ctaHref", widget: "string", required: true}
+          - label: "Pillars (3)"
+            name: "pillars"
+            widget: "list"
+            min: 3
+            max: 3
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: true}
+              - {label: "Description", name: "description", widget: "text", required: true}
+              - {label: "Icon", name: "icon", widget: "select", options: ["quality", "innovation", "sustainability"], required: true}
+          - label: "KPIs"
+            name: "kpis"
+            widget: "list"
+            min: 3
+            max: 6
+            fields:
+              - {label: "Label", name: "label", widget: "string", required: true}
+              - {label: "Value", name: "value", widget: "string", required: true}
+          - label: "Featured Categories"
+            name: "featuredCategories"
+            widget: "list"
+            min: 2
+            max: 4
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: true}
+              - {label: "Description", name: "description", widget: "text", required: true}
+              - {label: "Href (e.g. /innovation)", name: "href", widget: "string", required: true}
+          - {label: "Story CTA Title", name: "storyCtaTitle", widget: "string", required: true}
+          - {label: "Story CTA Description", name: "storyCtaDescription", widget: "text", required: true}
+
+      - label: "About"
+        name: "about"
+        i18n: true
+        file: "content/{{locale}}/pages/about.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string", required: true}
+          - {label: "Summary", name: "summary", widget: "text", required: true}
+          - {label: "SEO Title", name: "seoTitle", widget: "string", required: true}
+          - {label: "SEO Description", name: "seoDescription", widget: "text", required: true}
+          - {label: "Body", name: "body", widget: "markdown", required: true}
+
+      - label: "Innovation"
+        name: "innovation"
+        i18n: true
+        file: "content/{{locale}}/pages/innovation.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string", required: true}
+          - {label: "Summary", name: "summary", widget: "text", required: true}
+          - {label: "SEO Title", name: "seoTitle", widget: "string", required: true}
+          - {label: "SEO Description", name: "seoDescription", widget: "text", required: true}
+          - {label: "Body", name: "body", widget: "markdown", required: true}
+
+      - label: "Sustainability"
+        name: "sustainability"
+        i18n: true
+        file: "content/{{locale}}/pages/sustainability.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string", required: true}
+          - {label: "Summary", name: "summary", widget: "text", required: true}
+          - {label: "SEO Title", name: "seoTitle", widget: "string", required: true}
+          - {label: "SEO Description", name: "seoDescription", widget: "text", required: true}
+          - {label: "Body", name: "body", widget: "markdown", required: true}
+
+  - name: "products"
+    label: "Products"
+    label_singular: "Product"
+    folder: "content/{{locale}}/products"
+    i18n: true
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Name", name: "name", widget: "string", required: true}
+      - {label: "Slug (lowercase, hyphen)", name: "slug", widget: "string", required: true}
+      - {label: "Category", name: "category", widget: "select", options: ["api", "food-additive", "feed-additive"], required: true}
+      - {label: "SEO Title", name: "seoTitle", widget: "string", required: true}
+      - {label: "SEO Description", name: "seoDescription", widget: "text", required: true}
+      - {label: "Short Description", name: "shortDescription", widget: "text", required: true}
+      - label: "Highlights"
+        name: "highlights"
+        widget: "list"
+        min: 2
+        max: 6
+      - label: "Applications"
+        name: "applications"
+        widget: "list"
+        min: 1
+        max: 8
+      - label: "Specs"
+        name: "specs"
+        widget: "list"
+        min: 3
+        fields:
+          - {label: "Item", name: "item", widget: "string", required: true}
+          - {label: "Value", name: "value", widget: "string", required: true}
+      - label: "Packaging"
+        name: "packaging"
+        widget: "list"
+        min: 1
+        fields:
+          - {label: "Type", name: "type", widget: "string", required: true}
+          - {label: "Net", name: "net", widget: "string", required: true}
+      - label: "Documents"
+        name: "documents"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Label", name: "label", widget: "string", required: true}
+          - {label: "File URL", name: "file", widget: "string", required: true}
+          - {label: "Type", name: "type", widget: "select", options: ["TDS", "SDS", "COA", "Certificate", "Other"], required: true}
+
+  - name: "news"
+    label: "News"
+    label_singular: "Post"
+    folder: "content/{{locale}}/news"
+    i18n: true
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Slug", name: "slug", widget: "string", required: true}
+      - {label: "Date (YYYY-MM-DD)", name: "date", widget: "string", required: true}
+      - {label: "Category", name: "category", widget: "select", options: ["press", "industry", "event"], required: true}
+      - {label: "SEO Title", name: "seoTitle", widget: "string", required: true}
+      - {label: "SEO Description", name: "seoDescription", widget: "text", required: true}
+      - {label: "Excerpt", name: "excerpt", widget: "text", required: true}
+      - {label: "Cover Image", name: "coverImage", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: true}
+
+  - name: "jobs"
+    label: "Jobs"
+    label_singular: "Job"
+    folder: "content/{{locale}}/jobs"
+    i18n: true
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Slug", name: "slug", widget: "string", required: true}
+      - {label: "Location", name: "location", widget: "string", required: true}
+      - {label: "Department", name: "department", widget: "string", required: true}
+      - {label: "Type", name: "type", widget: "select", options: ["full-time", "part-time", "internship", "contract"], required: true}
+      - {label: "Apply Email", name: "applyEmail", widget: "string", required: true}
+      - {label: "SEO Title", name: "seoTitle", widget: "string", required: true}
+      - {label: "SEO Description", name: "seoDescription", widget: "text", required: true}
+      - {label: "Excerpt", name: "excerpt", widget: "text", required: true}
+      - {label: "Body", name: "body", widget: "markdown", required: true}
